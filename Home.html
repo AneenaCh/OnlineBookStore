@@ -22,27 +22,44 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
+  font-weight:500;
 }
 .main{
     background-color: rgb(250, 249, 238);
+    display:flex;
+    flex-direction: row;
 }
 .main  img{
     height: 500px;
-    margin-top: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .main img:nth-child(1){
-    padding-left: 25rem;
-
-
+    padding-left: 20rem;
+    padding-right: 10rem;
 }
-.main img:nth-child(2){
-    
+.main img:nth-child(3){
+  position:relative;
+  right:36rem;
+  height: 35rem;
+  top: 2rem;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: white;
   color: rgb(8, 0, 7);
+}
+.text {
+  margin-top: 5rem;
+}
+.text h3{
+  font-size: 6rem ;
+  font-weight: 10;
+}
+.text h4{
+  font-size: 4rem;
+  font-weight: 10;
 }
 
 /* Add a color to the active/current link */
@@ -60,11 +77,19 @@
   <a href="#shop"><h2>Shop</h2></a>
 </div>
 <div class="main">
+  <div class="books">
     <img src="https://marketplace.canva.com/EAFPRHVOM5g/1/0/1024w/canva-pink-illustration-romance-wattpad-ebook-cover-WVI3LKWGU4s.jpg">
     <img src="https://marketplace.canva.com/EAFKVwNQbfc/3/0/1003w/canva-brown-and-beige-simple-romance-book-cover-6eVSu_DSfVg.jpg">
+    <img src="https://marketplace.canva.com/EAFAeAANxcc/1/0/1024w/canva-abstract-minimal-photographic-romance-ebook-cover-vXyI5wZ2Pm0.jpg">
+  </div>
+  <div class="text">
+    <h3>Top Books</h> 
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the</h4>
+    <h3>&nbsp;&nbsp;Month</h3>
+  </div>
 </div>
 <div style="padding-right:16px">
-  <h2>Top Navigation Bar Example bb</h2>
+  <h2>Top Navigation Bar Example</h2>
   <p>Some content..</p>
 </div>
 
